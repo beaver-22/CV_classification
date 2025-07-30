@@ -14,8 +14,7 @@ checkpoints/
 data/
 datasets/
 *.npy
-*.npz
-models/
+*.npz/
 *.zip
 *.tar.gz
 *.jpg
@@ -26,9 +25,6 @@ models/
 .venv/
 venv/
 
-wandb/
-evaluation_results/
-result_analysis/
-saved_model/
+wandb//
 
 *.log

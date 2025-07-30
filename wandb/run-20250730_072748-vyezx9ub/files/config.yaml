@@ -1,0 +1,110 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            q00l1hb2nrvunjfvcln087f5e5zhhm5z:
+                args:
+                    - --model-name
+                    - vit_small_patch16_224
+                    - --exp-name
+                    - tiny-imagenet-200-vit_small_patch16_224-False-aug_default
+                    - --dataname
+                    - tiny-imagenet-200
+                    - --num-classes
+                    - "200"
+                    - --opt-name
+                    - Adam
+                    - --aug-name
+                    - default
+                    - --batch-size
+                    - "256"
+                    - --lr
+                    - "0.001"
+                    - --use_scheduler
+                    - --epochs
+                    - "50"
+                    - --datadir
+                    - ./datasets
+                codePath: CV_classification/main.py
+                codePathLocal: main.py
+                cpu_count: 12
+                cpu_count_logical: 24
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "982820896768"
+                        used: "38370537472"
+                email: asap3090@gmail.com
+                executable: /opt/conda/bin/python
+                git:
+                    commit: 6b36ea1f29709d4c4c89fb4689901a52b4f236ae
+                gpu: NVIDIA GeForce RTX 3090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-1c079481-ce2c-e273-8b35-8fad142ad7fd
+                host: dbbbc4b9c211
+                memory:
+                    total: "134982553600"
+                os: Linux-5.15.0-67-generic-x86_64-with-glibc2.35
+                program: /root/study/DSBA_Pretraining/CV_classification/main.py
+                python: CPython 3.11.12
+                root: /root/study/DSBA_Pretraining/CV_classification
+                startedAt: "2025-07-30T07:27:48.380991Z"
+                writerId: q00l1hb2nrvunjfvcln087f5e5zhhm5z
+        m: []
+        python_version: 3.11.12
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 51
+                - 63
+            "2":
+                - 1
+                - 41
+                - 49
+                - 51
+                - 63
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.11.12
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
+aug_name:
+    value: default
+batch_size:
+    value: 256
+datadir:
+    value: ./datasets
+dataname:
+    value: tiny-imagenet-200
+epochs:
+    value: 50
+exp_name:
+    value: tiny-imagenet-200-vit_small_patch16_224-False-aug_default
+log_interval:
+    value: 10
+lr:
+    value: 0.001
+model_name:
+    value: vit_small_patch16_224
+num_classes:
+    value: 200
+opt_name:
+    value: Adam
+pretrained:
+    value: false
+savedir:
+    value: ./saved_model
+seed:
+    value: 223
+use_scheduler:
+    value: true
