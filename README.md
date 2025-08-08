@@ -1,5 +1,7 @@
 # ResNet vs ViT: CutMix/MixUp
 
+!!!!data loader는 직접 구현해야 한다!!!!
+
 ## 📋 목차
 
 - [연구 개요](#-연구-개요)
