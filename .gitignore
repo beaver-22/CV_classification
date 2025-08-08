@@ -12,6 +12,7 @@ checkpoints/
 # 대용량 데이터셋 폴더들을 무시합니다.
 datasets/CIFAR100/
 datasets/tiny-imagenet-200/
+evaluation_results/
 
 # 압축된 데이터셋 파일을 무시합니다.
 *.tar.gz
@@ -29,7 +30,6 @@ __pycache__/
 venv/
 *.py[cod]
 *.egg-info/
-
 
 # ## 민감 정보 ##
 .env
